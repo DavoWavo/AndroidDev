@@ -1,0 +1,37 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:stretchColumns="0,1"
+    android:orientation="vertical"
+    >
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SYM"
+            android:id="@+id/dynamic_currency_symbol_tv"
+            android:gravity="start"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dynamic_currency_price_tv"
+            android:text="000"
+            android:layout_toEndOf="@id/dynamic_currency_symbol_tv"
+            android:gravity="end"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            android:id="@+id/dynamic_currency_name_tv"
+            android:layout_below="@+id/dynamic_currency_symbol_tv"
+            android:gravity="start"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 SYM = X.Base"
+            android:id="@+id/dynamic_currency_conversion_tv"
+            android:gravity="end"/>
+    </TableRow>
+</TableLayout>

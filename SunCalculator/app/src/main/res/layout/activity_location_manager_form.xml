@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocationManagerForm">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+        <TableRow>
+            <TextView
+                android:id="@+id/location_form_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Name: "
+                android:labelFor="@+id/location_form_title_et"/>
+            <EditText
+                android:id="@+id/location_form_title_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:inputType="text"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/location_form_longitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Longitude: "
+                android:labelFor="@+id/location_form_longitude_et"/>
+            <EditText
+                android:id="@+id/location_form_longitude_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/location_form_latitude"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Latitude: "
+                android:labelFor="@+id/location_form_latitude_et"/>
+            <EditText
+                android:id="@+id/location_form_latitude_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/location_form_timezone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Time zone: "
+                android:labelFor="@+id/location_form_timezone_et"/>
+            <EditText
+                android:id="@+id/location_form_timezone_et"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:inputType="text"
+                tools:ignore="LabelFor"
+                />
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/save_location_form"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="save"
+                />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

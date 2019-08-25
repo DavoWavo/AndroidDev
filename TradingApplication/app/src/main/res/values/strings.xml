@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Trading Application</string>
+    <string name="title_activity_currency_selection">Currency Selection</string>
+    <string name="title_activity_manage_currencies">Manage Currencies</string>
+    <string name="title_activity_currency_converter">Currency Converter</string>
+    <string name="row_selection_name">NAME</string>
+    <string name="row_selection_symbol">SYMBOL</string>
+    <string name="toggle_watched">WATCH</string>
+    <string name="toggle_unwatched">UNWATCH</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string-array name="rates_array">
+        <item>1D</item>
+        <item>5D</item>
+        <item>1M</item>
+        <item>6M</item>
+        <item>1Y</item>
+    </string-array>
+</resources>

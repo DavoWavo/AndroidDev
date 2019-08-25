@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dateFragment">
+
+    <TableLayout
+        android:id="@+id/date_table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1">
+        <TableRow>
+            <Button
+                android:id="@+id/picStartDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_date_range_black_24dp"
+                android:text="@string/start_date"
+                />
+            <Button
+                android:id="@+id/picEndDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_date_range_black_24dp"
+                android:text="@string/end_date"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/showStartDate"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/showEndDate"
+                android:textSize="18sp"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/locationTV_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Melbourne, AU"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:layout_below="@+id/date_table"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_suntimes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/locationTV_date"/>
+</RelativeLayout>

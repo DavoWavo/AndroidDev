@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BookList</string>
+    <string name="dune_title">Dune</string>
+    <string name="dune_rating">90</string>
+    <string name="nineteen_eighty_four_title">Nineteen eighty-four</string>
+    <string name="nineteen_eighty_four_rating">84</string>
+    <string name="enders_game_title">Enders game</string>
+    <string name="enders_game_rating">60</string>
+    <string name="the_left_hand_of_darkness_title">The Left Hand of Darkness</string>
+    <string name="the_left_hand_of_darkness_rating">95</string>
+    <string name="the_time_machine_title">The Time Machine</string>
+    <string name="the_time_machine_rating">98</string>
+    <string name="fahrenheit_451_title">Fahrenheit 451</string>
+    <string name="fahrenheit_451_rating">85</string>
+    <string name="the_forever_war_title">The Forever War</string>
+    <string name="the_forever_war_rating">72</string>
+    <string name="hyperion_title">Hyperion</string>
+    <string name="hyperion_rating">86</string>
+    <string name="brave_new_world_title">Brave New World</string>
+    <string name="brave_new_world_rating">96</string>
+    <string name="the_hitchhikers_guide_to_the_galaxy_title">The Hitchhiker Guide to the Galaxy</string>
+    <string name="the_hitchhikers_guide_to_the_galaxy_rating">42</string>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".FoodActivity"
+    style="@style/AppTheme">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+        <TableRow>
+            <ImageView
+                android:id="@+id/food_picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/food_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/food_activity_title"
+                />
+            <EditText
+                android:id="@+id/title_edit"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/url_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/food_activity_url"/>
+            <EditText
+                android:id="@+id/url_edit"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/keywords_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/food_activity_keywords" />
+            <EditText
+                android:id="@+id/keywords_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/date_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/food_activity_date" />
+            <EditText
+                android:id="@+id/date_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/email_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="@string/food_activity_email" />
+            <EditText
+                android:id="@+id/email_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </TableRow>
+        <TableRow>
+            <ToggleButton
+                android:id="@+id/share_toggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textOn="@string/food_activity_share"
+                android:textOff="@string/food_activity_share"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                />
+            <RatingBar
+                android:id="@+id/rating_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numStars="5"/>
+        </TableRow>
+        <TableRow>
+            <Button
+                android:id="@+id/save_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/food_activity_save"
+                android:textSize="20sp"
+                android:gravity="center"
+                />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

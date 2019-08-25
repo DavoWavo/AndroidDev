@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:stretchColumns="2"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/manage_currencies_symbol_tv"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="@string/row_selection_symbol"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" - "
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/manage_currencies_name_tv"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:text="@string/row_selection_name"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/manage_currencies_row_button"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:background="@drawable/ic_more_vert_black_24dp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

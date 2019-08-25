@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FavouriteFood</string>
+    <string name="title_steak">STEAK</string>
+    <string name="title_burger">BURGER</string>
+    <string name="title_pasta">PASTA</string>
+    <string name="title_pizza">PIZZA</string>
+    <string name="food_activity_title">Title:</string>
+    <string name="food_activity_url">URL:</string>
+    <string name="food_activity_keywords">Keywords:</string>
+    <string name="food_activity_date">Date:</string>
+    <string name="food_activity_email">Email:</string>
+    <string name="food_activity_share">SHARE</string>
+    <string name="food_activity_save">SAVE</string>
+</resources>
